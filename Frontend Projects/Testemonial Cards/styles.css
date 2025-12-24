@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Nunito;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+.main-container {
+  border: 5px solid black;
+  border-radius: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  padding: 30px 5px;
+}
+
+
+.container1 {
+  display: flex;
+  max-width: 28rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.container1 p {
+  font-size: 24px;
+  color: white;
+}
+
+.container1 .box {
+  background-color: black;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.container1 .box2 {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 218px;
+  left: 44px;
+  transform: rotate(45deg);
+}
+
+.container1 .profile {
+  display: flex;
+  margin-top: 22px;
+  gap: 16px;
+  align-self: flex-start;
+  padding-left: 10px;
+}
+
+.container1 .profile h3 {
+  font-size: 26px;
+}
+
+.container1 .profile p {
+  font-size: 20px;
+  color: black;
+}
+
+.container1 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container1 img {
+  height: 90px;
+  max-width: 90px;
+  border-radius: 50%;
+}
+
+
+
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 30px;
+  max-width: 34rem;
+  height: 22rem;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.container2 .description {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.container2 .profile {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-self: flex-start;
+}
+
+.container2 .profile .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container2 .profile h3 {
+  font-size: 26px;
+}
+
+.container2 .profile p {
+  font-size: 20px;
+}
+
+.container2 img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.container3 {
+  display: flex;
+  gap: 22px;
+  width: 68rem;
+  margin-bottom: 30px;
+}
+
+.container3 img {
+  height: 22rem;
+  max-width: 22rem;
+  border-radius: 30px;
+  margin-left: 44px;
+}
+
+.container3 .in-container {
+  width: 40rem;
+  background-color: black;
+  border-radius: 40px;
+  padding: 40px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px
+}
+
+.container3 p {
+  color: white;
+  font-size: 24px;
+}
+
+.container3 span {
+  color: gray;
+  font-size: 24px;
+}
+
+.container3 h3 {
+  color: white;
+  font-size: 3rem;
+}
+
+.star {
+  height: 28px;
+  width: 28px;
+}
+
+
+
+.container4 {
+  border: 3px solid black;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px;
+  gap: 20px;
+  max-width: 64rem;
+}
+
+.imgs-container {
+  max-width: 40rem;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs-container .side {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.imgs-container .center {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.container4 p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.container4 h3 {
+  align-self: center;
+  font-size: 26px;
+}
